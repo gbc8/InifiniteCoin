@@ -80,9 +80,9 @@ void solve(int n, int currentValue, vector<int> &coins, MySet<vector<int>> &myse
 
 /**
 * The function below will ...
-* - Obtain the input
-* - Try a solution by adding a coin of each type individually with a support of memoization to avoid repetition
-* - Save solutions in MySet data structure
+* - Receive the input as parameter
+* - Create the auxiliary variables
+* - Return the solution as a MySet variable
 */
 MySet<vector<int>> makeChange(int n){
     dp.clear();
